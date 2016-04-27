@@ -5,7 +5,7 @@
  * Thanks for MaterializeCSS.com
  */
 
-.default_color{background-color: #2196F3 !important}
+.default_color{background-color: #DF4162 !important}
 
 .default_color_text{color: #2196F3 !important}
 
@@ -263,3 +263,34 @@ nav a.button-collapse {
 footer.page-footer {
     margin-top: 0px !important;
 }
+
+/*------------------------------------*\
+    #Section META
+\*------------------------------------*/
+.section {
+  /*
+   * Don't touch .flow-text because
+   * it has special properties defined by 
+   * materialize.css. All other based in at 18px.
+   */ }
+  .section p:not(.flow-text) {
+    font-size: 1.2rem; }
+  .section h2 {
+    color: #DD5A2B;
+    font-weight: bold;
+    margin: 3rem 0 4rem; }
+  .section .btn {
+    background-color: #26a69a; }
+
+/*------------------------------------*\
+    #FAQs
+\*------------------------------------*/
+.section__faq .collapsible {
+  box-shadow: none; }
+.section__faq .collapsible-header p {
+  margin: .5rem 0 .5rem; }
+
+@media (max-width: 600px) {
+  .collapsible-header p.flow-text {
+    margin: 1rem 0; } }
+
